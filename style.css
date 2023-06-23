@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contanior{
+width: 30vw;
+height: 90vh;
+margin: auto;
+border-radius: 9px;
+    
+}
+.btn{
+    padding: 20px 30px;
+    margin: 0px 2px;
+    width: 80px;
+    font-size:22px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 22px;
+    border-style: none;
+    /* box-shadow: 2px 2px 0px 3px rgb(230, 169, 169) , -2px -2px rgb(255, 245, 245); */
+}
+
+.input{
+    margin-top: 15px;
+    font-size: 25px;
+    padding: 60px 0px;
+    border: 2px solid black;
+    overflow: none;
+    background-color: rgb(149, 149, 252);
+}
+.input ::placeholder text{
+    font-size: 30px;
+    font-weight: 600;
+}
